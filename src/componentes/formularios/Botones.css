@@ -1,0 +1,50 @@
+.btn-personalizado {
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #0a1f44, #142f6e);
+  box-shadow: 
+    0 4px 0 #081733,
+    0 8px 20px rgba(10, 31, 68, 0.4);
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-personalizado::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.25);
+  transform: skewX(-25deg);
+  transition: 0.5s;
+}
+
+.btn-personalizado:hover::before {
+  left: 130%;
+}
+
+.btn-personalizado:hover {
+  transform: translateY(-3px);
+  box-shadow: 
+    0 6px 0 #081733,
+    0 12px 25px rgba(10, 31, 68, 0.5);
+}
+
+.btn-personalizado:active {
+  transform: translateY(2px);
+  box-shadow: 
+    0 2px 0 #081733,
+    0 5px 10px rgba(0,0,0,0.25);
+}
+
+.pagina404 {
+  color: white;
+}

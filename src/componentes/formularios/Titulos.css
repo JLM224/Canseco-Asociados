@@ -1,0 +1,10 @@
+.T1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.T2 {
+  color: #005F73;
+}
