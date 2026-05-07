@@ -6,7 +6,7 @@
 
 .contenido {
   flex: 1;
-  background-image: url("./Justicia.png");
+  background-image: url('/Justicia.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
